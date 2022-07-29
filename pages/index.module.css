@@ -12,7 +12,7 @@
   transform: scale(1.03);
 }
 
-.image {
+.image img {
   height: 380px;
   width: 380px;
   border-radius: 50%;

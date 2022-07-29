@@ -3,6 +3,9 @@ import NextLink from "next/link";
 import { useRouter } from "next/router";
 import { useTheme as useNextTheme } from "next-themes";
 import { Switch, useTheme, Grid, Button } from "@nextui-org/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 import MoonIcon from "./MoonIcon";
 import SunIcon from "./SunIcon";
@@ -53,6 +56,7 @@ const Navigation: React.FC = () => {
           },
         }}
       >
+        <FontAwesomeIcon icon={faReact} />
         <i className="fa-brands fa-react" />
       </Grid>
       <Grid>

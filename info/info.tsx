@@ -1,19 +1,25 @@
 import Icon from "../models/icon";
 import Project from "../models/project";
+import {
+  faInstagram,
+  faDiscord,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const info = {
   bio: [
     { id: 1, text: "🎲 nerd at heart" },
-    { id: 2,text: "🌏 based in Korea" },
-    { id: 3,text: "💻 looking for job opportunities!" },
-    { id: 4,text: "📧 pat43607@gmail.com" },
+    { id: 2, text: "🌏 based in Korea" },
+    { id: 3, text: "💻 looking for job opportunities!" },
+    { id: 4, text: "📧 pat43607@gmail.com" },
   ],
 
   interests: [
-    { id: 1,text: "🎮 videogames" },
-    { id: 2,text: "🎬 cinema" },
-    { id: 3,text: "🛫 travelling" },
-    { id: 4,text: "🐒 animals" },
+    { id: 1, text: "🎮 videogames" },
+    { id: 2, text: "🎬 cinema" },
+    { id: 3, text: "🛫 travelling" },
+    { id: 4, text: "🐒 animals" },
   ],
 
   about: {
@@ -27,18 +33,10 @@ export const info = {
   },
 
   socials: [
-    new Icon("https://linkedin.com/in/pat43607/", "fa fa-linkedin", "linkedin"),
-    new Icon("https://github.com/Jezzail", "fa fa-github", "github"),
-    new Icon(
-      "https://instagram.com/ragezzail/",
-      "fa fa-instagram",
-      "instagram"
-    ),
-    new Icon(
-      "https://discordapp.com/users/Jezzail#5097",
-      "fab fa-discord",
-      "discord"
-    ),
+    new Icon("https://linkedin.com/in/pat43607/", faLinkedin, "linkedin"),
+    new Icon("https://github.com/Jezzail", faGithub, "github"),
+    new Icon("https://instagram.com/ragezzail/", faInstagram, "instagram"),
+    new Icon("https://discordapp.com/users/Jezzail#5097", faDiscord, "discord"),
   ],
 
   skills: [

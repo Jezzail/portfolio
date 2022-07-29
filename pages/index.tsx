@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Grid, Text, Container, Row } from "@nextui-org/react";
+import { Grid, Text, Container, Row, Image } from "@nextui-org/react";
 
 import SocialItem from "../components/SocialItem";
 import { info } from "../info/info";
@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <Grid.Container gap={2} className={classes.gridContainer}>
       <Grid className={classes.gridImage}>
-        <img src="/me.png" className={classes.image} />
+        <Image src="/me.png" className={classes.image} />
       </Grid>
       <Grid>
         <Text h1>

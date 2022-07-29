@@ -23,10 +23,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          {CssBaseline.flush()}
-          <script src="https://kit.fontawesome.com/ec6b355690.js"></script>
-        </Head>
+        <Head>{CssBaseline.flush()}</Head>
         <body>
           <Main />
           <NextScript />

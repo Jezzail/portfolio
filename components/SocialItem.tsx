@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "@nextui-org/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 import Icon from "../models/icon";
 
@@ -14,7 +16,8 @@ const SocialItem: React.FC<{ social: Icon }> = (props) => {
       href={props.social.link}
       className={classes.link}
     >
-      <i className={props.social.icon} aria-hidden="true" />
+      <FontAwesomeIcon icon={props.social.icon as IconProp} />
+      {/* <i className={props.social.icon} aria-hidden="true" /> */}
     </Link>
   );
 };
