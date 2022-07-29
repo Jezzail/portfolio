@@ -1,0 +1,20 @@
+.card {
+  overflow: auto;
+  background: transparent;
+}
+
+.cardHeader {
+  justify-content: center;
+  height: 10vh;
+}
+
+.cardBody {
+  overflow: revert;
+  justify-content: center;
+}
+
+.cardFooter {
+  justify-content: center;
+  flex-direction: column;
+  height: 5vh;
+}
