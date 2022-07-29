@@ -79,8 +79,8 @@ export const info = {
 
   projects: [
     new Project(
-      "linkCode",
-      "LinkDemo",
+      "https://github.com/Jezzail/portfolio",
+      "https://portfolio-lilac-chi-27.vercel.app/",
       "/projects/portfolio_demo.png",
       "Portfolio",
       "Portfolio portal ",
