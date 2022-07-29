@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import { useTheme as useNextTheme } from "next-themes";
 import { Switch, useTheme, Grid, Button } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 import MoonIcon from "./MoonIcon";
@@ -57,7 +56,6 @@ const Navigation: React.FC = () => {
         }}
       >
         <FontAwesomeIcon icon={faReact} />
-        <i className="fa-brands fa-react" />
       </Grid>
       <Grid>
         <NextLink href="/portfolio">

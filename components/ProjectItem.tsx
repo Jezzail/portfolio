@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, Image, Text, Grid, Card, Button } from "@nextui-org/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faLaptop } from "@fortawesome/free-solid-svg-icons";
 
 import Project from "../models/project";
 
@@ -26,7 +28,7 @@ const ProjectItem: React.FC<{ project: Project }> = (props) => {
             <Button
               auto
               icon={
-                <i className="fa-solid fa-laptop-code" aria-hidden="true" />
+                <FontAwesomeIcon icon={faLaptop} />
               }
             >
               Live Demo
@@ -37,7 +39,7 @@ const ProjectItem: React.FC<{ project: Project }> = (props) => {
             href={props.project.linkCode}
             className={classes.link}
           >
-            <Button auto icon={<i className="fa fa-code" aria-hidden="true" />}>
+            <Button auto icon={<FontAwesomeIcon icon={faCode} />}>
               Github
             </Button>
           </Link>
