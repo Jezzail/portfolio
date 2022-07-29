@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <Text h2>{info.about.rol}</Text>
         <Container gap={1} justify={"space-around"}>
           {info.bio.map((text) => (
-            <Row>
+            <Row key={text.id}>
               <Text b className={classes.bio}>
                 {text.text}
               </Text>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         </Container>
         <Grid.Container gap={2} justify="center">
           {info.socials.map((social) => (
-            <Grid>
+            <Grid key={social.label}>
               <SocialItem social={social} />
             </Grid>
           ))}

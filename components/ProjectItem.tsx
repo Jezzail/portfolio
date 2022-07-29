@@ -8,7 +8,7 @@ import classes from "./ProjectItem.module.css";
 const ProjectItem: React.FC<{ project: Project }> = (props) => {
   return (
     <Grid className={classes.grid}>
-      <Image src={props.project.image} />
+      <Image src={props.project.image} alt={props.project.title}/>
       <Card className={classes.card}>
         <Card.Header className={classes.cardHeader}>
           <Text h3>{props.project.title}</Text>

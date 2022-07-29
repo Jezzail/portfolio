@@ -9,7 +9,7 @@ const SkillItem: React.FC<{ skill: Icon }> = (props) => {
   return (
     <Fragment>
       <Link target="_blank" href={props.skill.link} className={classes.link}>
-        <Image src={props.skill.icon} className={classes.image} />
+        <Image src={props.skill.icon} className={classes.image} alt={props.skill.label}/>
       </Link>
       <Text className={classes.text}>{props.skill.label}</Text>
     </Fragment>

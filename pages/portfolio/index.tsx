@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Grid.Container justify="center" gap={2}>
       {info.projects.map((project) => (
-        <ProjectItem project={project} />
+        <ProjectItem key={project.id} project={project} />
       ))}
     </Grid.Container>
   );

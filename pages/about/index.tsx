@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           <Card.Body className={classes.cardBody}>
             <Grid.Container justify="space-around" gap={6}>
               {info.skills.map((skill) => (
-                <Grid>
+                <Grid key={skill.label}>
                   <SkillItem skill={skill} />
                 </Grid>
               ))}
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
           <Card.Body>
             <Container gap={1} justify={"space-around"}>
               {info.interests.map((interest) => (
-                <Row>
+                <Row key={interest.id}>
                   <Text b className={classes.text}>
                     {interest.text}
                   </Text>

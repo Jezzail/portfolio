@@ -3,17 +3,17 @@ import Project from "../models/project";
 
 export const info = {
   bio: [
-    { text: "🎲 nerd at heart" },
-    { text: "🌏 based in Korea" },
-    { text: "💻 looking for job opportunities!" },
-    { text: "📧 pat43607@gmail.com" },
+    { id: 1, text: "🎲 nerd at heart" },
+    { id: 2,text: "🌏 based in Korea" },
+    { id: 3,text: "💻 looking for job opportunities!" },
+    { id: 4,text: "📧 pat43607@gmail.com" },
   ],
 
   interests: [
-    { text: "🎮 videogames" },
-    { text: "🎬 cinema" },
-    { text: "🛫 travelling" },
-    { text: "🐒 animals" },
+    { id: 1,text: "🎮 videogames" },
+    { id: 2,text: "🎬 cinema" },
+    { id: 3,text: "🛫 travelling" },
+    { id: 4,text: "🐒 animals" },
   ],
 
   about: {
