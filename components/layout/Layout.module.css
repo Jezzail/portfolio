@@ -1,6 +1,6 @@
 .card {
   overflow: auto;
-  background: transparent;
+  background: var(--nextui-colors-background);
 }
 
 .cardHeader {

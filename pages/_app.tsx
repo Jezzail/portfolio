@@ -12,7 +12,7 @@ const lightTheme = createTheme({
   type: "light",
   className: "myLightTheme",
   theme: {
-    colors: { background: "#ebebeb" }, // override dark theme colors
+    colors: { background: "#ebebeb" }, // override light theme colors
   },
 });
 
