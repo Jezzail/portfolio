@@ -33,7 +33,7 @@ export const info = {
   },
 
   socials: [
-    new Icon("https://linkedin.com/in/pat43607/", faLinkedin, "linkedin"),
+    new Icon("https://linkedin.com/in/pabloabril/", faLinkedin, "linkedin"),
     new Icon("https://github.com/Jezzail", faGithub, "github"),
     new Icon("https://instagram.com/ragezzail/", faInstagram, "instagram"),
     new Icon("https://discordapp.com/users/Jezzail#5097", faDiscord, "discord"),
