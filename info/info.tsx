@@ -29,7 +29,7 @@ export const info = {
     text2:
       ", I changed my position and decided to travel the world as a Software System Engineer. Now I am back in web and really happy to be learning all the amazing new tools that makes us, developers, life much easier.",
     text3:
-      "Reliable, hardworking, result-driven, resourceful. Looking for remote job opportunities.",
+      "Reliable, resourceful, result-driven. Looking for remote job opportunities.",
   },
 
   socials: [
