@@ -80,7 +80,7 @@ export const info = {
   projects: [
     new Project(
       "https://github.com/Jezzail/portfolio",
-      "https://portfolio-lilac-chi-27.vercel.app/",
+      "https://patportfolio.dev/",
       "/projects/portfolio_demo.png",
       "Portfolio",
       "Portfolio portal ",
