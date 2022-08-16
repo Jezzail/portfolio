@@ -65,13 +65,13 @@ export const info = {
     new Icon("https://expressjs.com/", "/skills/expressjs.png", "ExpressJs"),
     new Icon("https://reactjs.org/", "/skills/reactjs.png", "React"),
     new Icon("https://nodejs.org/en/", "/skills/nodejs.png", "NodeJs"),
-    new Icon("https://vercel.com/", "/skills/vercel.png", "Vercel"),
+    new Icon("https://redux.js.org/", "/skills/redux.png", "Redux"),
     new Icon(
       "https://firebase.google.com/",
       "/skills/firebase.png",
       "Firebase"
     ),
-    new Icon("https://www.heroku.com/", "/skills/heroku.png", "Heroku"),
+    new Icon("https://sass-lang.com/", "/skills/sass.png", "SASS/SCSS"),
     new Icon("https://mui.com/", "/skills/materialui.png", "MaterialUI"),
     new Icon("https://tailwindcss.com/", "/skills/tailwind.png", "Tailwind"),
     new Icon("https://next-auth.js.org/", "/skills/nextauth.png", "NextAuthJs"),
