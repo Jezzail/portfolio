@@ -30,6 +30,12 @@
   animation: spinHorizontal 0.8s infinite linear;
 }
 
+@media (max-width: 650px) {
+  .button {
+    font-size: 12px;
+  }
+}
+
 @keyframes spinHorizontal {
   0% {
     transform: rotateY(0deg);
