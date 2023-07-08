@@ -24,10 +24,10 @@ export const info = {
 
   about: {
     name: "Pablo",
-    rol: "Web Developer",
-    text1: "After several years of professional experience as",
+    rol: "Frontend Web Developer",
+    text1: "Working as",
     text2:
-      ", I changed my position and decided to travel the world as a Software System Engineer. Now I am back in web and really happy to be learning all the amazing new tools that makes us, developers, life much easier.",
+      "based in Seoul. Happy to be back in web dev again after several years traveling the world as a Software System Engineer. Always learning and polishing all the amazing new tools that makes developing a better experience.",
     text3:
       "Reliable, resourceful, result-driven. Looking for remote job opportunities.",
   },
@@ -87,6 +87,14 @@ export const info = {
       "React • Nextjs • Typescript • NextUI • CSSModules"
     ),
     new Project(
+      "",
+      "https://web.globaleur.com/tours",
+      "/projects/portfolio_globaleur.png",
+      "Globaleur",
+      "Working as Web Developer for Globaleur",
+      "React • Typescript • Bootstrap • TailwindCSS"
+    ),
+    new Project(
       "https://github.com/Jezzail/twitter_mockup",
       "https://twitter-mockup.vercel.app/",
       "/projects/twitter_demo.png",
@@ -94,14 +102,14 @@ export const info = {
       "Mockup of the famous social network",
       "React • Nextjs • Typescript • TailwindCSS • NextAuthjs • Vercel"
     ),
-    new Project(
+    /*new Project(
       "https://github.com/Jezzail/places_mern",
       "https://mern-test-c7330.web.app/",
       "/projects/places_demo.png",
       "Share Places Demo",
       "Designed under the MERN stack. Backend + Frontend",
       "MongoDB • Mongoose • Express • React • NodeJs • Firebase • Heroku • MaterialUI"
-    ),
+    ),*/
     new Project(
       "https://github.com/Jezzail/food_app",
       "https://food-app-f9c43.web.app/",

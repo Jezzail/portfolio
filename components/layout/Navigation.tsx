@@ -1,4 +1,3 @@
-import React from "react";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
 import { useTheme as useNextTheme } from "next-themes";
@@ -11,10 +10,10 @@ import SunIcon from "./SunIcon";
 
 import classes from "./Navigation.module.css";
 
-const Navigation: React.FC = () => {
+function Navigation(): JSX.Element {
   const router = useRouter();
   const { setTheme } = useNextTheme();
-  const { isDark, type } = useTheme();
+  const { isDark } = useTheme();
 
   return (
     <Grid.Container className={classes.gridContainer}>
@@ -85,6 +84,6 @@ const Navigation: React.FC = () => {
       </Grid>
     </Grid.Container>
   );
-};
+}
 
 export default Navigation;
