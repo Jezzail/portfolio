@@ -25,11 +25,11 @@ export const info = {
   about: {
     name: "Pablo",
     rol: "Frontend Web Developer",
-    text1: "Working as",
+    text1: "As a seasoned",
     text2:
-      "based in Seoul. Happy to be back in web dev again after several years traveling the world as a Software System Engineer. Always learning and polishing all the amazing new tools that makes developing a better experience.",
+      "based in Seoul, I specialize in creating intuitive, high-performance user interfaces. My background in frontend development, software systems engineering, and technical support gives me a strong grasp of both development and deployment. Recently stepping into a managerial role, I now lead engineering teams while continuing to deliver efficient code and optimize cross-platform performance.",
     text3:
-      "Reliable, resourceful, result-driven. Looking for remote job opportunities.",
+      "I excel in collaborative environments, using my technical and leadership skills to achieve successful outcomes.",
   },
 
   socials: [
@@ -88,7 +88,7 @@ export const info = {
     ),
     new Project(
       "",
-      "https://web.globaleur.com/tours",
+      "https://web.globaleur.com",
       "/projects/portfolio_globaleur.png",
       "Globaleur",
       "Working as Web Developer for Globaleur",
